@@ -1,0 +1,15 @@
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\bin\Debug\net6.0\RockPaperScissorsMiniGame.exe
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\bin\Debug\net6.0\RockPaperScissorsMiniGame.deps.json
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\bin\Debug\net6.0\RockPaperScissorsMiniGame.runtimeconfig.json
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\bin\Debug\net6.0\RockPaperScissorsMiniGame.dll
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\bin\Debug\net6.0\RockPaperScissorsMiniGame.pdb
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\obj\Debug\net6.0\RockPaperScissorsMiniGame.csproj.AssemblyReference.cache
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\obj\Debug\net6.0\RockPaperScissorsMiniGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\obj\Debug\net6.0\RockPaperScissorsMiniGame.AssemblyInfoInputs.cache
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\obj\Debug\net6.0\RockPaperScissorsMiniGame.AssemblyInfo.cs
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\obj\Debug\net6.0\RockPaperScissorsMiniGame.csproj.CoreCompileInputs.cache
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\obj\Debug\net6.0\RockPaperScissorsMiniGame.dll
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\obj\Debug\net6.0\refint\RockPaperScissorsMiniGame.dll
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\obj\Debug\net6.0\RockPaperScissorsMiniGame.pdb
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\obj\Debug\net6.0\RockPaperScissorsMiniGame.genruntimeconfig.cache
+C:\Users\Sean Friedmann\source\repos\RockPaperScissorsMiniGame\RockPaperScissorsMiniGame\obj\Debug\net6.0\ref\RockPaperScissorsMiniGame.dll
