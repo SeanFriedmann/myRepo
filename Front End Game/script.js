@@ -13,26 +13,28 @@ const spriteHeight = 523; //5230/10
 let frameX = 0;
 let frameY = 0;
 let gameFrame = 0; //frame speed
-const staggerFrames = 5; //0 will stop animation
+const staggerFrames = 5; //0 will stop animation, animation speed
+const spriteAnimations = [ ];
+const animationStates = [
+    {
+        name: 'idle',
+        frames: 7,
+    },
+    {
+        name: 'jump',
+        frames: 7,
+    }
+];
+animationStates.forEach((state, index) => {})
 
 function animate(){
     ctx.clearRect(0,0, CANVAS_WIDTH, CANVAS_HEIGHT);
-    //ctx.fillRect(100,50,100,100); //width and height of 100, start at blocks 50 50
-    ctx.drawImage(playerImage, frameX * spriteWidth, frameY * spriteHeight, spriteWidth, spriteHeight, 0, 0, spriteWidth, spriteHeight) //what you want to draw, x and y coords
-   
-    if (gameFrame % staggerFrames ==0){ //will only move to next animation every 5 times through the loop function
-    if (frameX < 6) frameX++; //one less than final frame
-    else frameX = 0;
-    }
+    let position = Math.floor(gameFrame/staggerFrames) % 6; //has 6 animation frames
+    frameX = spriteWidth * position;
+    ctx.drawImage(playerImage, frameX, frameY * spriteHeight, spriteWidth, 
+    spriteHeight, 0, 0, spriteWidth, spriteHeight) //what you want to draw, x and y coords
+  
     gameFrame++;
-
-    
-    
-    //last 2 vars draw frame at original size
-
-    //more in depth taking 9 args
-   // ctx.drawImage(image, sx, sy, sw, sh, dx, dy, dw. dh);
-
     requestAnimationFrame(animate) //run function passed to it, will run over and over as an animation loop
 };
 animate();

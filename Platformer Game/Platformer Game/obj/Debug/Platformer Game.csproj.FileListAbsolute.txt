@@ -1,0 +1,10 @@
+C:\Users\Student\git\myRepo\Platformer Game\Platformer Game\bin\Debug\Platformer Game.exe.config
+C:\Users\Student\git\myRepo\Platformer Game\Platformer Game\bin\Debug\Platformer Game.exe
+C:\Users\Student\git\myRepo\Platformer Game\Platformer Game\bin\Debug\Platformer Game.pdb
+C:\Users\Student\git\myRepo\Platformer Game\Platformer Game\obj\Debug\Platformer Game.csproj.AssemblyReference.cache
+C:\Users\Student\git\myRepo\Platformer Game\Platformer Game\obj\Debug\Platformer_Game.Form1.resources
+C:\Users\Student\git\myRepo\Platformer Game\Platformer Game\obj\Debug\Platformer_Game.Properties.Resources.resources
+C:\Users\Student\git\myRepo\Platformer Game\Platformer Game\obj\Debug\Platformer Game.csproj.GenerateResource.cache
+C:\Users\Student\git\myRepo\Platformer Game\Platformer Game\obj\Debug\Platformer Game.csproj.CoreCompileInputs.cache
+C:\Users\Student\git\myRepo\Platformer Game\Platformer Game\obj\Debug\Platformer Game.exe
+C:\Users\Student\git\myRepo\Platformer Game\Platformer Game\obj\Debug\Platformer Game.pdb
