@@ -25,7 +25,17 @@ const animationStates = [
         frames: 7,
     }
 ];
-animationStates.forEach((state, index) => {})
+animationStates.forEach((state, index) => {
+    let frames = {
+        loc: [],
+    }
+    for (let j = 0; j < state.frames; s++){
+        let positionX = j * spriteWidth;
+        let positionY = index * spriteHeight;
+        frames.loc.push({x: positionX, y: positionY}); //push values into location array on line 30
+    }
+}) //foreach method, function expression shortcut, state.name, first is index 0 then 1
+
 
 function animate(){
     ctx.clearRect(0,0, CANVAS_WIDTH, CANVAS_HEIGHT);
