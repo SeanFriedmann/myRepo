@@ -10,8 +10,7 @@ playerImage.src = "shadow_dog.png"; //put png in same folder as html file, aka F
 const spriteWidth = 575; //6876/12 = 573
 const spriteHeight = 523; //5230/10
 
-let frameX = 0;
-let frameY = 0;
+
 let gameFrame = 0; //frame speed
 const staggerFrames = 5; //0 will stop animation, animation speed
 const spriteAnimations = [ ];
@@ -29,17 +28,21 @@ animationStates.forEach((state, index) => {
     let frames = {
         loc: [],
     }
-    for (let j = 0; j < state.frames; s++){
+    for (let j = 0; j < state.frames; j++){
         let positionX = j * spriteWidth;
         let positionY = index * spriteHeight;
         frames.loc.push({x: positionX, y: positionY}); //push values into location array on line 30
     }
-}) //foreach method, function expression shortcut, state.name, first is index 0 then 1
 
+    spriteAnimations[state.name] = frames;
+
+}); //foreach method, function expression shortcut, state.name, first is index 0 then 1
+
+console.log(animationStates);
 
 function animate(){
     ctx.clearRect(0,0, CANVAS_WIDTH, CANVAS_HEIGHT);
-    let position = Math.floor(gameFrame/staggerFrames) % 6; //has 6 animation frames
+    let position = Math.floor(gameFrame/staggerFrames) % spriteAnimations['idle'].loc.length; //has 6 animation frames
     frameX = spriteWidth * position;
     ctx.drawImage(playerImage, frameX, frameY * spriteHeight, spriteWidth, 
     spriteHeight, 0, 0, spriteWidth, spriteHeight) //what you want to draw, x and y coords
