@@ -3,6 +3,7 @@ const ctx = canvas.getContext('2d'); //contains properties and draw in methods
 const CANVAS_WIDTH = canvas.width = 800;
 const CANVAS_HEIGHT = canvas.height = 700;
 let gameSpeed = 10;
+//let gameFrame = 0;
 
 const backgroundLayer1 = new Image();
 backgroundLayer1.src = 'layer-1.png';
@@ -15,7 +16,8 @@ backgroundLayer4.src = 'layer-4.png';
 const backgroundLayer5 = new Image();
 backgroundLayer5.src = 'layer-5.png';
 
-const slider = document.getElementById('slider');
+window.addEventListener('load', function() {
+    const slider = document.getElementById('slider');
 slider.value = gameSpeed;
 const showGameSpeed = document.getElementById('showGameSpeed');
 showGameSpeed.innerHTML = gameSpeed;
@@ -43,11 +45,10 @@ class Layer { //used for creating similar objects
         if (this.x <= -this.width){
             this.x = 0;
         }
-        // if (this.x2 <= -this.width){
-        //     this.x2 = this.width + this.x - this.speed; //ensure no gaps 
-        // }
-        this.x = Math.floor(this.x - this.speed);
-        // this.x2 = Math.floor(this.x2 - this.speed);
+        this.x = this.x - this.speed;
+
+
+       // this.x = gameFrame * this.speed % this.width;
     }
     draw() {
         //redraw img at new position
@@ -71,6 +72,9 @@ function animate(){
         object.update();
         object.draw();
     });
+   // gameFrame--;
     requestAnimationFrame(animate);
 };
 animate();
+});
+
